@@ -1,0 +1,19 @@
+.nav {
+  height: 12vh;
+  width: 100%;
+}
+
+.list {
+  padding-left: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.link {
+  color: #111;
+}

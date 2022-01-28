@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import ImageCarousel from '../components/ImageCarousel';
 import NavBar from '../components/NavBar';
+import PureCarousel from '../components/PureCarousel';
 
 import styles from '../styles/Home.module.css'
 
@@ -16,7 +17,8 @@ export default function Home() {
 
       <NavBar />
       <main className={styles.main} style={{justifyContent: "flex-start"}}>
-        <ImageCarousel />
+        {/* <ImageCarousel /> */}
+        <PureCarousel />
       </main>
 
       <footer className={styles.footer}>

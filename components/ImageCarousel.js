@@ -3,13 +3,17 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
 
-import tamilService from '../public/Tamil_Service.jpg'
-import englishService from '../public/English_Service.jpg'
-import bibleStudy from '../public/Bible_Study.jpg'
+import promise2022 from '../public/Promise_2022.png'
+import tamilService from '../public/Tamil_Service.png'
+import englishService from '../public/English_Service.png'
+import bibleStudy from '../public/Bible_Study.png'
 
 export default function ImageCarousel() {
   return (
     <Carousel autoPlay={true} infiniteLoop={true} interval={3500} showThumbs={false}>
+      <div>
+        <Image src={promise2022} alt="" />
+      </div>
       <div>
         <Image src={tamilService} alt="" />
       </div>

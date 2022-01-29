@@ -9,9 +9,9 @@ export default function NavBar() {
     "About",
     "Ministries",
     "Resources",
-    "Media",
+    // "Media",
     "Contact Us",
-    "Secret of God's creation"
+    // "Secret of God's creation"
   ];
 
   return (
